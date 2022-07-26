@@ -1,0 +1,75 @@
+:root{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card{
+  font-family:sans-serif;
+  max-width: 40vh;
+  box-shadow: 1px 1px 70px #0005;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-quote-left{
+  font-size: 50px;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+.quote{
+  display: block;
+  display: inline;
+}
+
+.author{
+  text-align: end;
+  margin-right: 10px;
+  line-height: 30px;
+}
+
+.btn{
+  text-align: end;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.btn2{
+  font-size: 30px;
+  width: 35px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+.text{
+  text-align: center;
+  width: 80%;
+}
+
+.qt{
+  display: block;
+  display: inline;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .card{
+    min-width: 40vh;
+    min-height: 15vh;
+  }
+}
